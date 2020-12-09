@@ -1,6 +1,5 @@
 //
 //  Stack.hpp
-//  primer
 //
 //  Created by 张昊 on 16/10/8.
 //  Copyright © 2016年 张昊. All rights reserved.
@@ -12,8 +11,8 @@
 #include<iostream>
 using namespace std;
 
-class Stack
-{
+class Stack {
+    
 public:
     Stack();
     bool empty();
@@ -22,13 +21,10 @@ public:
     int  pop();
     
 private:
-    
-    struct Node
-    {
+    struct Node {
         int content;
         Node *next;
-    }*head;
+    } *head;
 };
-
 
 #endif /* Stack_h */
